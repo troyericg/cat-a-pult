@@ -1,0 +1,242 @@
+/* "Before he swings the bat, a real slugger imagines an 
+      arc inside his heart, arching directly to Heaven." */
+
+
+
+/*BASE STYLES------------------------------------------------------------*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#3e3e3e;
+	font-size:1em;
+}
+
+
+a:link, a:visited {
+	color:#d8e6ff;
+	opacity:0.7;
+	outline:none;
+	text-decoration:none;
+}
+
+
+a:hover {
+	opacity:1;
+}
+
+
+
+
+/*PAGE STRUCTURE------------------------------------------------------------*/
+
+#wrapper {
+	display:block;
+	position:relative;
+	width:100%;
+	overflow:hidden;
+}
+
+
+
+
+/*HEADER------------------------------------------------------------*/
+
+#nav {}
+
+
+
+/*MAIN STYLES------------------------------------------------------------*/
+
+#main {
+	padding:50px 0 0 50px;
+	width:100%;
+}
+
+#main div.nonCat, div.cat1, div.cat2, div.cat3, div.cat4 {
+	display:block;
+	margin:0 10px 20px 0;
+}
+
+#main div.nonCat {
+	display:none;
+	background-color:red;
+	opacity:0.5;
+	width:100px;
+	height:100px;
+}
+
+
+.cat1 {
+	background-color:red;
+	width:50px;
+	height:50px;
+}
+
+.cat2 {
+	background-color:red;
+	width:150px;
+	height:50px;
+}
+
+.cat3 {
+	background-color:red;
+	width:100px;
+	height:80px;
+}
+
+.cat4 {
+	background-color:red;
+	width:300px;
+	height:200px;
+}
+
+
+
+
+/*SECONDARY STYLES------------------------------------------------------------*/
+
+#secondary {}
+
+
+
+
+
+
+
+
+
+/*FOOTER------------------------------------------------------------*/
+
+#footer {
+	background-color:#3e3e3e;
+	border-top:4px solid #808080;
+	color:#999;
+	font-size:0.813em; /*13px*/ 
+	line-height:16px;
+	margin-top:150px;
+	padding:50px 0;
+}
+
+
+#footer-content {
+	width:930px;
+	margin:0 auto;
+}
+
+
+#footer #footer-content h4 {
+	font-size:1.625em; /*26px*/
+	font-weight:900;
+	margin-bottom:100px;
+
+}
+
+
+#footer #footer-content ul li.subhead h5 {
+	color:#f4f4f4;
+	font-size:1.375em; /*22px*/
+	font-weight:900;
+	margin-top:-40px;
+	margin-bottom:20px;
+}
+
+
+#footer #footer-content .row {
+	border-left:1px solid #999;
+	display:inline;
+	float:left;
+	padding-left:40px;
+	padding-right:20px;
+	text-align:left;
+	width:250px;
+}
+
+
+#footer #footer-content .firstchild {
+	border-left:0px;
+	padding-left:0px;
+}
+
+
+#footer #footer-content ul li {
+	margin-bottom:10px;
+}
+
+
+#footer #footer-content ul li em {
+	font-style:italic;
+}
+
+
+#footer:hover {
+	color:#f4f4f4;
+}
+
+
+
+
+
+
+
+
+/*MISC------------------------------------------------------------*/
+
+.hide {
+	display:none;
+}
+
+a img {
+	border:none;
+}
+
+
+/*  Formerly known as "Clearfix"  */ 
+/*.group {display: inline-block;}*/
+.group:after {content: "."; clear: both;display: block;font-size: 0;height: 0;visibility: hidden;}
+
+
+/*Keeps certain strings from being selectable (highlight-able) on pages.*/
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+
+
+/* CSS3 VENDOR PREFIXES:
+-o-
+-moz-
+-webkit-
+*/
+
+
+
+/*For Responsive Design: 'target' divided by 'context' = 'result'   */
+
+/*LIST OF STARTER MEDIA QUERIES: 
+
+@media only screen and (max-width:320px) {}
+
+@media only screen and (min-width:320px) and (max-width:480px) {}
+
+@media only screen and (min-width:480px) and (max-width:768px) {}
+
+@media only screen and (min-width:768px) and (max-width:960px) {}
+
+@media only screen and (min-width:960px) and (max-width:1440px) {}
+
+@media only screen and (min-width:1440px) {}
+
+*/
+
+
+
+/*The End*/
